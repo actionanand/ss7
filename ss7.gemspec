@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["www.facebook.com/actionanand"]
 
   spec.summary       = %q{ This gem is to manipulate SS7 point code into different bases }
-  spec.description   = %q{ Kindly read readme for further understanding }
+  spec.description   = %q{ This gem is to manipulate SS7 point (7-7 Std) code into different bases like Decimal, Octal, Binary and Hexa}
   spec.homepage      = "https://github.com/actionanand/ss7"
   spec.license       = "MIT"
 

@@ -29,7 +29,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: 
+require ss7
+include Ss7
 
 dec2pc77("12900")     to convert decimal into SS7 point code 7-7
 pc772dec("65-87")     to convert SS7 point code 7-7	into Decimal
