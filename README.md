@@ -29,17 +29,18 @@ Or install it yourself as:
 
 ## Usage
 
-require ss7
+require 'ss7'
+
 include Ss7
 
-dec2pc77("12900")     to convert decimal into SS7 point code 7-7
-pc772dec("65-87")     to convert SS7 point code 7-7	into Decimal
-dec2oct("750")	      to convert decimal into Octal
-dec2bin("750")        to convert decimal into Binary
-dec2hex("750")	      to convert decimal into Hexadecimal
-oct2dec("765")	      to convert Octal into Decimal
-bin2dec("11100011")	  to convert Binary into Decimal
-hex2dec("AbC3")		  to convert Hexadecimal into Decimal
+dec2pc77("12900")   ====>  to convert decimal into SS7 point code 7-7
+pc772dec("65-87")   ====>  to convert SS7 point code 7-7	into Decimal
+dec2oct("750")	    ====>  to convert decimal into Octal
+dec2bin("750")      ====>  to convert decimal into Binary
+dec2hex("750")	    ====>  to convert decimal into Hexadecimal
+oct2dec("765")	    ====>  to convert Octal into Decimal
+bin2dec("11100011")	====>  to convert Binary into Decimal
+hex2dec("AbC3")		====>  to convert Hexadecimal into Decimal
 
 ## Development
 
