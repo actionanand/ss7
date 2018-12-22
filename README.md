@@ -1,8 +1,15 @@
 # Ss7
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ss7`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to SS7 Gem  :)
 
-TODO: Delete this and the text above, and describe your gem
+Hi This is AR(Anand Raja)
+This is my first Gem. This Gem is used to manipulate SS7 point codes.
+You can convert Decimal number to Hexa decimal, Octal, Binary and SS7 7-7 point code and vice-versa
+
+
+Suggetions are welcome to improve this gem better.
+
+Thank you for using my Gem, by AR
 
 ## Installation
 
@@ -22,7 +29,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: 
+
+dec2pc77("12900")     to convert decimal into SS7 point code 7-7
+pc772dec("65-87")     to convert SS7 point code 7-7	into Decimal
+dec2oct("750")	      to convert decimal into Octal
+dec2bin("750")        to convert decimal into Binary
+dec2hex("750")	      to convert decimal into Hexadecimal
+oct2dec("765")	      to convert Octal into Decimal
+bin2dec("11100011")	  to convert Binary into Decimal
+hex2dec("AbC3")		  to convert Hexadecimal into Decimal
 
 ## Development
 
